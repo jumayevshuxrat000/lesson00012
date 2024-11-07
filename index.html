@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styly.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">R-JS</div>
+        <input type="text" class="search" placeholder="Find something" />
+        <div class="nav-links">
+            <a class="nav__items" href="#">JavaScript</a>
+            <a class="nav__items" href="#">About JS</a>
+            <a class="nav__items" href="#">Lessons</a>
+            <a href="#" class="active">Tests</a>
+        </div>
+        <div class="notification">
+            <img src="./assets/notificaton.png" alt="Notifications" />
+        </div>
+        <div class="profile">
+            <img src="./assets/myphotofor.jpg" alt="Profile" />
+        </div>
+    </div>  
+    <div class="contianer">
+        <section class="hero">
+            <div class="hero__content">
+                <h1>JavaScript funksiyalari</h1>
+                <strong>JavaScript funktsiyasi ma'lum bir vazifani bajarish uchun mo'ljallangan kod blokidir.JavaScript funktsiyasi "biror narsa" uni chaqirganda (uni chaqirganda) bajariladi. </strong>
+                <h2>JavaScript sana ob'ektlari</h2>
+                <p>Sana ob'ektlari statikdir. "Soat" "ishlamaydi".Kompyuter soati tiqilyapti, sana ob'ektlari esa yo'q.</p>
+            </div>
+            <div class="loader">
+                <div class="box">
+                    <div class="logo">
+                        <img style="margin-left: 20px;" width="30px" height="30px" src="./assets/programing.png" alt="">
+                    </div>
+                </div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </section> 
+    </div class="contianer">
+        <section class="advertasing" style="background-color: #24262b; padding: 20px;">
+            <div class="contianer">
+                <div class="pictures">
+                    <img width="80px" src="./assets/Chapel.svg" alt="">
+                    <img width="80px" src="./assets/CPlusPlus.svg" alt="">
+                    <img width="80px" src="./assets/green.svg" alt="">
+                    <img width="80px" src="./assets/JS.svg" alt="">
+                    <img width="80px" src="./assets/Nim.svg" alt="">
+                </div>
+            </div>
+        </section>    
+        <div class="contianer">
+            <section class="function__main">
+                <div class="card">
+                    <p class="card-title">JavaScript funksiyasi sintaksisi</p>
+                    <p class="small-desc">
+                       functionJavaScript funksiyasi kalit so'z, undan keyin ism va keyin qavs () bilan belgilanadi .
+                       Funktsiya nomlarida harflar, raqamlar, pastki chiziq va dollar belgilari bo'lishi mumkin (o'zgaruvchilar bilan bir xil qoidalar).
+                       Qavslar vergul bilan ajratilgan parametr nomlarini o'z ichiga olishi mumkin:
+                       ( parametr1, parametr2, ... )
+                       Funktsiya tomonidan bajariladigan kod jingalak qavslar ichiga joylashtiriladi: {}
+                    </p>
+                    <div class="go-corner">
+                      <div class="go-arrow">→</div>
+                    </div>
+                  </div>
+               <div class="card">
+                    <p class="card-title">Funktsiyani chaqirish</p>
+                    <p class="small-desc">Funktsiya ichidagi kod "biror narsa" funktsiyani chaqirganda (chaqirganda) bajariladi:</p>
+                    <p class="small-desc">
+                        Voqea sodir bo'lganda (foydalanuvchi tugmani bosganida)
+                        U JavaScript kodidan chaqirilganda (chaqirilsa).
+                        Avtomatik (o'z-o'zidan chaqiriladi)
+                    </p>
+                    <p class="small-desc">Keyinchalik ushbu qo'llanmada funktsiyani chaqirish haqida ko'proq bilib olasiz.</p>
+                    <div class="go-corner">
+                      <div class="go-arrow">→</div>
+                    </div>
+                  </div>
+               <div class="card">
+                    <p class="card-title">Funktsiyani qaytarish</p>
+                    <p class="small-desc">JavaScript bayonotga yetganda return, funktsiya bajarilishini to'xtatadi.</p>
+                    <p class="small-desc">
+                        Agar funktsiya bayonotdan chaqirilgan bo'lsa, JavaScript chaqiruvchi bayonotdan keyin kodni bajarish uchun "qaytadi".
+                        Funktsiyalar ko'pincha qaytish qiymatini hisoblashadi . Qaytish qiymati "qo'ng'iroq qiluvchi" ga "qaytariladi":
+                    </p>
+                    <div class="go-corner">
+                      <div class="go-arrow">→</div>
+                    </div>
+                  </div>
+            </section>
+            <h2>Keling bularni kod sentaksisini ham korib chiqamiz</h2>
+            <section class="code__function">
+                <div class="card__function__code">
+                  <div class="tools">
+                    <div class="circle">
+                      <span class="red boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green boxes"></span>
+                    </div>
+                  </div>
+                  <div class="card__content">
+                    <h4>Ikki raqamning mahsulotini hisoblang va natijani qaytaring:</h4>
+                    <p>// Function is called, the return value will end up in x
+                        let x = myFunction(4, 3);
+                        
+                        function myFunction(a, b) {
+                        // Function returns the product of a and b
+                          return a * b;}
+                    </p>
+                    <strong>Funktsiyalar yordamida siz kodni qayta ishlatishingiz mumkin</strong>
+                  </div>
+                </div>
+                <div class="card__function__code">
+                  <div class="tools">
+                    <div class="circle">
+                      <span class="red boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green boxes"></span>
+                    </div>
+                  </div>
+                  <div class="card__content">
+                    <h4>Farengeytni Selsiyga aylantiring:</h4>
+                    <p>function toCelsius(fahrenheit) {
+                        return (5/9) * (fahrenheit-32);
+                      }
+                      
+                      let value = toCelsius(77);</p>
+                      <strong>Ko'p marta ishlatilishi mumkin bo'lgan kodni yozishingiz mumkin.</strong>
+                  </div>
+                </div>
+                <div class="card__function__code">
+                  <div class="tools">
+                    <div class="circle">
+                      <span class="red boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow boxes"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green boxes"></span>
+                    </div>
+                  </div>
+                  <div class="card__content">
+                    <h4>Noto'g'ri parametrlarga ega funktsiyaga kirish noto'g'ri javobni qaytarishi mumkin:</h4>
+                    <p>
+                        function toCelsius(fahrenheit) {
+                        return (5/9) * (fahrenheit-32);
+                      }
+                      
+                      let value = toCelsius();</p>
+                      <strong>Turli natijalarni ishlab chiqarish uchun siz bir xil kodni turli argumentlar bilan ishlatishingiz mumkin.</strong>
+                  </div>
+                </div>
+            </section>
+            <section class="hero__date">
+                <div class="face">
+                    <p class="v-index">II
+                    </p>
+                    <p class="h-index">II
+                    </p>
+                    <div class="hand">
+                        <div class="hand">
+                            <div class="hour"></div>
+                            <div class="minute"></div>
+                            <div class="second"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__header__text">
+                    <h2>JavaScript Date Objects</h2>
+                    <p>Odatiy bo'lib, JavaScript brauzerning vaqt mintaqasidan foydalanadi va sanani to'liq matn qatori sifatida ko'rsatadi:
+
+                    07 noyabr 2024 yil 23:32:44 GMT+0500 (O'zbekiston standart vaqti)
+                </p>
+                </div>
+            </section>
+        </div>
+
+</body>
+</html>
