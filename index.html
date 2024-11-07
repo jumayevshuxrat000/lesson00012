@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RenownJs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./styly.css">
 </head>
 <body>
@@ -167,6 +168,7 @@
                   </div>
                 </div>
             </section>
+            <h2 style="color: #00ff99; font-size: 32px; padding: 40px 20px;">JavaScript Date Object</h2>
             <section class="hero__date">
                 <div class="face">
                     <p class="v-index">II
@@ -189,7 +191,71 @@
                 </p>
                 </div>
             </section>
+            <section class="date__object__about">
+                <div class="card__date">
+                    <h4>Sana obyektlarini yaratish</h4>
+                    <p>Sana obyektlari konstruktor yordamida yaratiladi new Date().</p>
+                    <p>Yangi sana obyektini yaratishning 9 ta usuli mavjud :</p>
+                    <li class="card__items">new Date()</li>
+                    <li class="card__items">new Date(date string)</li>
+                    <li class="card__items">new Date(year,month)</li>
+                    <li class="card__items">new Date(year,month,day)</li>
+                    <li class="card__items">new Date(year,month,day,hours)</li>
+                    <li class="card__items">new Date(year,month,day,hours,minutes)</li>
+                    <li class="card__items">new Date(year,month,day,hours,minutes,seconds)</li>
+                    <li class="card__items">new Date(year,month,day,hours,minutes,seconds,ms)</li>
+                    <li class="card__items">new Date(milliseconds)</li>
+                </div>
+                <div class="card__date">
+                    <h4>JavaScript sanalarni millisekundlarda saqlaydi</h4>
+                    <p>JavaScript sanalarni 1970 yil 1 yanvardan boshlab millisekundlar soni sifatida saqlaydi.</p>
+                    <li class="card__items">Nol vaqti 1970 yil 01 yanvar 00:00:00 UTC .</li>
+                    <li class="card__items">Bir kun (24 soat) 86 400 000 millisekundga teng.</li>
+                    <li class="card__items">Endi vaqt: 1970 yil 1 yanvardan 1731004364170 millisekund o'tgan</li>
+                </div>
+                <div class="card__date">
+                    <h4> Eslatma</h4>
+                    <p> Yanvar = 0 .</p>
+                    <p>Dekabr = 11 .</p>
+                    <li class="card__items">6 ta raqam yil, oy, kun, soat, daqiqa, soniyani bildiradi:</li>
+                    <li class="card__items">5 ta raqam yil, oy, kun, soat va daqiqani bildiradi:</li>
+                    <li class="card__items">4 ta raqam yil, oy, kun va soatni bildiradi:</li>
+                    <li class="card__items">3 ta raqam yil, oy va kunni bildiradi:</li>
+                    <li class="card__items">2 raqam yil va oyni ko'rsatadi:</li>
+                </div>
+            </section>
+            <div class="body">
+                <div class="compiler">
+                    <h2>Jonli JS Terminali</h2>
+                    <textarea id="js-code" placeholder="Type your JavaScript code here..."></textarea>
+                    <button onclick="runCode()">Run</button>
+                    <h3>Output:</h3>
+                    <div id="output"></div>
+                  </div>
         </div>
-
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>R-Js</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Tezkor Havolalar</h3>
+                    <a href="#">Asosiy sahifa</a><br>
+                    <a href="#">Biz haqimizda</a><br>
+                </div>
+                <div class="footer-section">
+                    <h3>Bizga Ijtimoiy Tarmoqlarda Qo'shiling</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="app.js"></script>
 </body>
 </html>
